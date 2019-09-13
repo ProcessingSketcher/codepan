@@ -191,12 +191,6 @@
 </template>
 
 <script>
-  import { mapState, mapActions, mapGetters } from 'vuex'
-  import { Button, Input, Badge, Dropdown, DropdownMenu, DropdownItem, MessageBox, Checkbox } from 'element-ui'
-  import Event from '@/utils/event'
-  import popup from '@/utils/popup'
-  import { inIframe } from '@/utils'
-  import notie from 'notie'
   import {
     GithubIcon,
     GitBranchIcon,
@@ -206,7 +200,13 @@
     LogOutIcon,
     InfoIcon
   } from 'vue-feather-icons'
+  import { mapState, mapActions, mapGetters } from 'vuex'
+  import { Button, Input, Badge, Dropdown, DropdownMenu, DropdownItem, MessageBox, Checkbox } from 'element-ui'
+  import notie from 'notie'
   import SvgIcon from './SvgIcon.vue'
+  import Event from '@/utils/event'
+  import popup from '@/utils/popup'
+  import { inIframe } from '@/utils'
 
   export default {
     data() {
