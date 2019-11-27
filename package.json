@@ -5,7 +5,7 @@
   "description": "P5.js web IDE for online and offline",
   "details": "Codepan fork, cutomized to be a P5.js browser based IDE.",
   "main": "src/index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {},
   "scripts": {
     "test": "npm run lint && npx mocha -w --config .mocharc.js test/**/*.spec.js",
